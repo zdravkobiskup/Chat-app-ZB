@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+
+ 
+
+
+  .naslov {
+    color: rgb(0, 0, 8);
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    left: 30%;
+
+  }
+ 
+  
+  
+  .form-div {
+    float:left;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .form {
+    width: 60%;
+    min-width: 265px;
+    height: 200px;
+    min-height: 230px;
+    background-color: white;
+    margin: 10% 70%;
+    border: 5px solid gray;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-control {
+    width: 90%;
+    height: 30%;
+    font-size: 20px;
+    
+  }
+  
+  .input {
+    color:white;
+    width: 99%;
+    height: 60%;
+    border-radius: 15px;
+    background-color:#7d8183;
+    font-size: 25px;
+    padding: 0px 10px;
+    border: 2px solid rgb(118, 118, 118);
+  }
+  
+  
+  .button {
+    background-color: #7d8183;
+    font-size: 25px;
+    width: 99%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 4px;
+    border-radius: 15px;
+  }
+  
+  
